@@ -127,7 +127,7 @@ function ComputerConfigurator() {
                         className={`p-2 cursor-pointer rounded-lg hover:bg-gray-200 ${selectedItems[index]?.name === option.name ? 'bg-gray-200' : ''}`}
                         onClick={() => handleSelect(index, option)}
                       >
-                        {option.name} - ${option.price}
+                        {option.name} - ₹ {option.price}
                       </li>
                     ))}
                   </ul>
@@ -153,7 +153,7 @@ function ComputerConfigurator() {
         </ul>
         <div className="flex justify-between font-bold mt-4">
           <span>Total:</span>
-          <span>${Object.values(selectedItems).reduce((total, item) => total + item.price, 0)}</span>
+          <span>₹ {Object.values(selectedItems).reduce((total, item) => total + item.price, 0)}</span>
         </div>
         <button
           onClick={generatePDF}

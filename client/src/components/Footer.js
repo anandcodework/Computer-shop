@@ -10,7 +10,7 @@ function Footer() {
       <div>
         <div className="grid md:grid-cols-4 gap-8 px-5 py-10 border-t-2 border-gray-300/10 text-primary">
           {/* Brand info */}
-          <div className="pb-8 space-y-4 text-black font-semibold">
+          <div className="pb-8 space-y-4 text-black font-semibold ml-20">
             <div className="container text-2xl flex items-center gap-2 font-bold uppercase">
               <Link to="#" className="flex flex-row justify-center items-center gap-2">
                 <MdComputer className="text-primary flex" />
@@ -72,7 +72,7 @@ function Footer() {
             </div>
 
             {/* Location Map */}
-            <div>
+            <div className='mr-10'>
               <iframe
                 title="JBR Shop Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.754092058262!2d72.8862!3d19.1116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c64caaa!2sRamabai%20Colony!5e0!3m2!1sen!2sin!4v16181234567"

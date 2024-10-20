@@ -1,6 +1,6 @@
 const productCategory = [
     { id : 1, label : "Laptop", value : "Laptop"},
-    { id : 2, label : "Camera", value : "camera"},
+    { id : 2, label : "Cabinet ", value : "cabinet "},
     { id : 3, label : "Earphones", value : "earphones"},
     { id : 4, label : "Graphics Cards", value : "graphicscards"},
     { id : 5, label : "Mouse", value : "Mouse"},
@@ -11,7 +11,8 @@ const productCategory = [
     { id : 10, label : "SMPS", value : "smps"},
     { id : 11, label : "Ram", value : "ram"},
     { id : 12, label : "SSD", value : "ssd"},
-    { id : 13, label : "Keyborad", value : "keyborad"},
+    { id : 13, label : "Camera", value : "camera"},
+    
 ]
 
 

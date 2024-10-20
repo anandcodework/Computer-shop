@@ -13,17 +13,15 @@ const Home = () => {
       
 
       <HorizontalCardProduct category={"Laptop"} heading={"Top's Laptop"}/>
-      <HorizontalCardProduct category={"graphicscards"} heading={"Popular's Graphics Cards"}/>
+      <HorizontalCardProduct category={"ram"} heading={"Popular's Ram"}/>
 
       <VerticalCardProduct category={"processor"} heading={"Processor"}/>
       <VerticalCardProduct category={"motherboard"} heading={"Motherboard"}/>
-      <VerticalCardProduct category={"printers"} heading={"Printers"}/>
-      <VerticalCardProduct category={"sdd"} heading={"SSD & Hard Disk"}/>
       <VerticalCardProduct category={"earphones"} heading={"Earphones"}/>
-      <VerticalCardProduct category={"speakers"} heading={"Bluetooth Speakers"}/>
-      <VerticalCardProduct category={"smps"} heading={"SMPS"}/>
       <VerticalCardProduct category={"ram"} heading={"Ram"}/>
-      <VerticalCardProduct category={"keybord"} heading={"Keybord"}/>
+      <VerticalCardProduct category={"cabinet"} heading={"Cabinet "}/>
+      <VerticalCardProduct category={"Mouse"} heading={"Mouse"}/>
+      <VerticalCardProduct category={"printers"} heading={"Printers"}/>
       
       <Review/>
     </div>
