@@ -142,7 +142,7 @@ function Review() {
 
   return (
     <div className="py-14 mb-10">
-      <div className="container p-20">
+      <div className="p-20">
         {/* Header Section */}
         <div className="text-left mb-10 space-y-2 mr-auto">
           <h1 className="text-3xl font-semibold">How was your experience?</h1>
