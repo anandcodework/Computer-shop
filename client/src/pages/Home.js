@@ -13,7 +13,7 @@ const Home = () => {
       
 
       <HorizontalCardProduct category={"Laptop"} heading={"Top's Laptop"}/>
-      <HorizontalCardProduct category={"ram"} heading={"Popular's Ram"}/>
+      <HorizontalCardProduct category={"graphicscards"} heading={"Popular's Graphics Cards"}/>
 
       <VerticalCardProduct category={"processor"} heading={"Processor"}/>
       <VerticalCardProduct category={"motherboard"} heading={"Motherboard"}/>
@@ -21,6 +21,8 @@ const Home = () => {
       <VerticalCardProduct category={"ram"} heading={"Ram"}/>
       <VerticalCardProduct category={"cabinet"} heading={"Cabinet "}/>
       <VerticalCardProduct category={"Mouse"} heading={"Mouse"}/>
+      <VerticalCardProduct category={"ssd"} heading={"SSD & Hard Disk"}/>
+      <VerticalCardProduct category={"camera"} heading={"Camera"}/>
       <VerticalCardProduct category={"printers"} heading={"Printers"}/>
       
       <Review/>
