@@ -21,7 +21,7 @@ if (!fs.existsSync(invoicesDir)) {
 
 // CORS Configuration
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: http://localhost:3000,
     credentials: true
 }));
 
