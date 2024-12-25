@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://computer-d26x.onrender.com"
+  "proxy":"https://computer-d26x.onrender.com",
   "dependencies": {
     "@chatscope/chat-ui-kit-react": "^2.0.3",
     "@reduxjs/toolkit": "^2.2.1",
