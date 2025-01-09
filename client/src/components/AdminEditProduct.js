@@ -239,11 +239,6 @@ const AdminEditProduct = ({
             value={data.description}
           >
           </textarea>
-
-
-
-
-
           <button className='px-3 py-2 bg-red-600 text-white mb-10 hover:bg-red-700'>Update Product</button>
         </form>
 
