@@ -10,6 +10,8 @@ const fs = require('fs');
 const path = require('path');
 const { PDFDocument, rgb } = require('pdf-lib');
 const Order = require('./models/orderModel');
+const bodyParser = require('body-parser');
+
 
 const app = express();
 
@@ -19,16 +21,21 @@ if (!fs.existsSync(invoicesDir)) {
     fs.mkdirSync(invoicesDir);
 }
 
+// // CORS Configuration
 // CORS Configuration
 app.use(cors({
     origin: process.env.FRONTEND_URL,
     credentials: true
 }));
 
+
+
+
 app.use(express.json());
 app.use(cookieParser());
 app.use("/api", router);
-// app.use(express.static('./build'));
+
+
 
 // Contact message endpoint
 app.post('/contact', async (req, res) => {

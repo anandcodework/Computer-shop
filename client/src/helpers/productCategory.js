@@ -1,9 +1,9 @@
 const productCategory = [
-    { id : 1, label : "Laptop", value : "Laptop"},
-    { id : 2, label : "Cabinet ", value : "cabinet "},
-    { id : 3, label : "Earphones", value : "earphones"},
+    { id : 1, label : "Milk", value : "milk"},
+    { id : 2, label : "Curd ", value : "curd "},
+    { id : 3, label : "Soft Drink", value : "softdrink"},
     { id : 4, label : "Graphics Cards", value : "graphicscards"},
-    { id : 5, label : "Mouse", value : "Mouse"},
+    { id : 5, label : "Mouse", value : "mouse"},
     { id : 6, label : "Printers", value : "printers"},
     { id : 7, label : "Processor", value : "processor"},
     { id : 8, label : "Motherboard", value : "motherboard"},
