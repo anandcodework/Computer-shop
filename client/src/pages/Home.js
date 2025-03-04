@@ -12,10 +12,10 @@ const Home = () => {
       <CategoryList/>
       
 
-      <HorizontalCardProduct category={"milk"} heading={"Top's Laptop"}/>
+      <HorizontalCardProduct category={"Laptop"} heading={"Top's Laptop"}/>
       <HorizontalCardProduct category={"graphicscards"} heading={"Popular's Graphics Cards"}/>
 
-      <VerticalCardProduct category={"milk"} heading={"Spaceil Milk"}/>
+      <VerticalCardProduct category={"processor"} heading={"Processor"}/>
       <VerticalCardProduct category={"motherboard"} heading={"Motherboard"}/>
       <VerticalCardProduct category={"earphones"} heading={"Earphones"}/>
       <VerticalCardProduct category={"ram"} heading={"Ram"}/>
