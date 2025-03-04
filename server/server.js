@@ -15,24 +15,23 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-// Ensure invoices directory exists
-const invoicesDir = path.join(__dirname, 'invoices');
-if (!fs.existsSync(invoicesDir)) {
-    fs.mkdirSync(invoicesDir);
-}
+
 
 // // CORS Configuration
 // CORS Configuration
-app.use(cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true
-}));
+// app.use(cors({
+//     origin: process.env.FRONTEND_URL,
+//     credentials: true
+// }));
 
-
-
-
+app.use(cors());
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+
 app.use(cookieParser());
+
+
 app.use("/api", router);
 
 
@@ -106,8 +105,7 @@ app.post('/create-order', async (req, res) => {
     }
 });
 
-// Serve Invoices as static files
-app.use('/invoices', express.static(invoicesDir));
+
 
 // Order Tracking Route
 app.get('/track-order/:orderId', async (req, res) => {
